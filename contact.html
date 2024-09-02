@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremy Sorensen">
+    <meta name="description" content="Jeremy Sorensen - Professional Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jeremy Sorensen Portfolio">
+    <meta property="og:url" content="www.linkedin.com/in/jeremysorensen1">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/C4E03AQEorj_kk2Vrtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634742795111?e=1729728000&v=beta&t=5DgwxSBtmmBVEFhOGJjO2-vcRUvV_DV4tKr8awAMDgY">
+    <link rel="icon" href="images/myfavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/hamburger.js" defer></script>
+    <title>Jeremy Sorensen's Portfolio | Contact Form</title>
+</head>
+<body>
+    <header>
+       <nav class="navbar">
+            <a href="index.html"><img src="images/JS-NEW- Logo_Black-Worn_circle_8-20-24.svg" alt="monogram"></a>
+            <span class="header-name">Jeremy Sorensen</span>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="https://www.linkedin.com/in/jeremysorensen1" target="_blank">LinkedIn</a></li>
+                <li><a href="#">Resumé</a></li>
+            </ul>
+            <a href="contact.html" class="contact-btn" id="contact-btn">Contact Me</a>
+            <div><button class="toggle-btn"></button></div>
+       </nav> 
+
+       <div class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="https://www.linkedin.com/in/jeremysorensen1" target="_blank">LinkedIn</a></li>
+            <li><a href="#">Resumé</a></li>
+            <li class="current-menu-btn"><a href="contact.html" class="contact-btn">Contact Me</a></li>
+       </div>
+    </header>
+    <main>
+        <div class="hero-contact">
+            <div class="form-container">
+                <h1>Contact</h1>
+                <p>Feel free to contact me by submitting the form below and I will 
+                get back to you as soon as possible.
+                </p>
+                <hr />
+                <form method="get" action="thanks.html">
+                    <label for="name">Name</label>
+                    <input type="text" class="contact-name" name="name" autocomplete="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" class="email" name="email" autocomplete="email" placeholder="example@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea class="message" name="message" rows="10" required></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="timestamp">
+                <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/jeremy.sorensen.908" target="_blank">
+            <img class="fb-icon" src="images/facebook.svg" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/jsorensen801/" target="_blank">
+            <img class="ig-icon" src="images/instagram.svg" alt="instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/jeremysorensen1/" target="_blank">
+            <img class="li-icon" src="images/linkedin.svg" alt="linkedin">
+        </a>
+        <a href="https://github.com/jersorens1" target="_blank">
+            <img class="gh-icon" src="images/github.svg" alt="github">
+        </a>
+    </div>
+    <div class="crname"><p>&copy; Copyright <span id="currentyear"></span>. Made by Jeremy Sorensen</p></div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const timestampInput = document.getElementById('timestamp');
+            const now = new Date();
+            timestampInput.value = encodeURIComponent(now.toISOString());
+        });
+    </script>
+</body>
+</html>
