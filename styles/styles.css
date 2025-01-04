@@ -530,7 +530,7 @@ h3 {
 
 .form-container {
     max-width: 800px;
-    margin: 10em auto;
+    margin: 8em auto;
     padding: 1em;
     background-color: #e7e7e7;
     border-radius: 20px;
@@ -765,11 +765,12 @@ footer {
     }
 
     .hero-contact {
-        height: 125vh;
+        height: auto;
     }
 
     .form-container {
-        max-width: 500px;
+        width: clamp(375px, 100%, 500px);
+        height: auto;
         margin: 8em auto;
         padding: 1em;
         background-color: #e7e7e7;
