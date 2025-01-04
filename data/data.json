@@ -1,0 +1,25 @@
+[
+    {
+        "title":"Web Design Project 1",
+        "description":"UTV Information Website",
+        "class completed":"Dymanic Web Fundamentals",
+        "image":"./images/wdd131-project.webp",
+        "github":"https://jersorens1.github.io/wdd131/final-project/index.html"
+    },
+
+    {
+        "title":"Web Design Project 2",
+        "description":"Movie Database Website",
+        "class completed":"Web Frontend Development I",
+        "image":"./images/wdd231-project.webp",
+        "github":"https://jersorens1.github.io/wdd231/final-project/index.html"
+    },
+
+    {
+        "title":" Web Design Project 3",
+        "description":"Re-design Style Stage Website",
+        "class completed":"Advanced CSS",
+        "image":"./images/wdd331-project.webp",
+        "github":"https://jersorens1.github.io/stylestage-project/public/index.html"
+    }
+]
