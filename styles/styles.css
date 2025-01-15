@@ -325,14 +325,14 @@ img {
 }
 
 .contact-btn:hover {
-    scale: 1.15;
+    scale: 1.10;
     font-size: 600;
     background-color: #d62929;
     color: #fff;
 }
 
 .contact-btn:active {
-    scale: 0.5;
+    scale: 1;
 }
 
 #contact-btn {
@@ -791,7 +791,7 @@ footer {
     }
 
     .hero {
-        background-position: fixed;
+        background-position: absolute;
         background-size: cover;
         margin: auto;
     }
