@@ -21,5 +21,13 @@
         "class completed":"Advanced CSS",
         "image":"./images/wdd331-project.webp",
         "github":"https://jersorens1.github.io/stylestage-project/public/index.html"
+    },
+
+    {
+        "title":"Graphic Design College Projects",
+        "description":"Design Projects from BYU-I Courses",
+        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
+        "image":"./images/BYU-I_BehanceCover.webp",
+        "behance":"https://www.behance.net/jeremysorensen"
     }
 ]

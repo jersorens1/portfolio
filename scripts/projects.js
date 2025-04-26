@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const moreInfo = document.createElement("div");
       moreInfo.innerHTML = `
         <p><strong>Class Completed:</strong> ${project['class completed']}</p>
-        <p><a href="${project.github}" target="_blank" class="project-link">View on GitHub</a></p>
+        <p><a href="${project.github || project.behance}" target="_blank" class="project-link">Take a Look!</a></p>
       `;
   
       details.appendChild(image);
