@@ -29,5 +29,13 @@
         "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
         "image":"./images/BYU-I_BehanceCover.webp",
         "behance":"https://www.behance.net/jeremysorensen"
+    },
+
+    {
+        "title":"Personal Graphic Design Projects",
+        "description":"Designs Done Personally on Own Behalf as well as For Others",
+        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
+        "image":"./images/behance-website-cover.webp",
+        "behance":"https://www.behance.net/jeremysorensen2"
     }
 ]
