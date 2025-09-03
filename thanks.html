@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jeremy Sorensen">
-    <meta name="description" content="Jeremy Sorensen - Professional Portfolio">
-    <meta property="og:type" content="Jeremy Sorensen Portfolio website">
-    <meta property="og:title" content="Jeremy Sorensen Portfolio">
+    <meta name="description" content="Jeremy Sorensen - Thank you for contacting me">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Thank You - Jeremy Sorensen Portfolio">
     <meta property="og:url" content="www.linkedin.com/in/jeremysorensen1">
     <meta property="og:image" content="https://media.licdn.com/dms/image/v2/C4E03AQEorj_kk2Vrtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1634742795111?e=1729728000&v=beta&t=5DgwxSBtmmBVEFhOGJjO2-vcRUvV_DV4tKr8awAMDgY">
     <link rel="icon" href="images/myfavicon.ico">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/thanks.js" defer></script>
-    <title>Thank you!</title>
+    <title>Thank You - Jeremy Sorensen</title>
 </head>
 <body>
     <header>
@@ -41,17 +41,54 @@
        <div class="dropdown-menu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="https://www.linkedin.com/in/jeremysorensen1" target="_blank">LinkedIn</a></li>
-            <li><a href="#">Resumé</a></li>
+            <li><a href="Assets/JSorensen_Resume.pdf" class="JSorensen_Resume" target="_blank">Resumé</a></li>
             <li><a href="contact.html" class="contact-btn">Contact Me</a></li>
         </ul>
        </div>
     </header>
     <main>
-            <div class="results-container">
-                <div class="results"></div>
+        <div class="hero-thanks">
+            <div class="thanks-container">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="thanks-content">
+                    <h1>Message Sent Successfully!</h1>
+                    <div class="message-details" id="message-details">
+                        <!-- Content will be populated by JavaScript -->
+                    </div>
+                    <div class="next-steps">
+                        <h3>What happens next?</h3>
+                        <div class="steps">
+                            <div class="step">
+                                <i class="fas fa-envelope-open"></i>
+                                <p>I'll review your message within 24 hours</p>
+                            </div>
+                            <div class="step">
+                                <i class="fas fa-reply"></i>
+                                <p>You'll receive a personalized response</p>
+                            </div>
+                            <div class="step">
+                                <i class="fas fa-handshake"></i>
+                                <p>We can discuss your project further</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <a href="index.html" class="thanks-btn primary">
+                            <i class="fas fa-home"></i>
+                            Back to Home
+                        </a>
+                        <a href="projects.html" class="thanks-btn secondary">
+                            <i class="fas fa-eye"></i>
+                            View My Work
+                        </a>
+                    </div>
+                </div>
             </div>
+        </div>
     </main>
     <footer>
         <div class="social-icons">

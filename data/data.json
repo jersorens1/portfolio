@@ -1,5 +1,21 @@
 [
     {
+        "title":"College Graphic Design Projects",
+        "description":"Design Projects from BYU-I Courses",
+        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
+        "image":"./images/BYU-I_BehanceCover.webp",
+        "behance":"https://www.behance.net/jeremysorensen"
+    },
+
+    {
+        "title":"Personal Graphic Design Projects",
+        "description":"Designs Done Personally on Own Behalf as well as For Others",
+        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
+        "image":"./images/behance-website-cover.webp",
+        "behance":"https://www.behance.net/jeremysorensen2"
+    },
+    
+    {
         "title":"Web Design Project 1",
         "description":"UTV Information Website",
         "class completed":"Dymanic Web Fundamentals",
@@ -21,21 +37,6 @@
         "class completed":"Advanced CSS",
         "image":"./images/wdd331-project.webp",
         "github":"https://jersorens1.github.io/stylestage-project/public/index.html"
-    },
-
-    {
-        "title":"Graphic Design College Projects",
-        "description":"Design Projects from BYU-I Courses",
-        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
-        "image":"./images/BYU-I_BehanceCover.webp",
-        "behance":"https://www.behance.net/jeremysorensen"
-    },
-
-    {
-        "title":"Personal Graphic Design Projects",
-        "description":"Designs Done Personally on Own Behalf as well as For Others",
-        "class completed":"Graphic Design, Information Design, Visual Media, Social Media Design",
-        "image":"./images/behance-website-cover.webp",
-        "behance":"https://www.behance.net/jeremysorensen2"
     }
+
 ]
