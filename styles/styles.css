@@ -128,7 +128,7 @@ h1 {
     text-align: center;
     position: absolute;
     margin: 0;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ccc;
@@ -149,7 +149,7 @@ h2 {
 .text-primary {
     position: absolute;
     margin: auto;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -20%);
     white-space: nowrap;
@@ -167,7 +167,7 @@ h2 {
     text-align: center;
     position: absolute;
     padding-top: 160px;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -80%);
 }
