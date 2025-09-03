@@ -644,7 +644,7 @@ li.current-menu-item a {
     position: fixed;
     z-index: 999;
     right: 2rem;
-    top: 120px;
+    top: 110px;
     height: 0;
     width: 280px;
     background: rgba(16, 16, 16, 0.33);
@@ -657,7 +657,7 @@ li.current-menu-item a {
 .dropdown-menu.open {
     height: 390px;
     display: block;
-    width: 90%;
+    width: 85%;
     opacity: 1;
     border-bottom: 3px solid rgba(255, 255, 255, 0.1);
 }
@@ -963,7 +963,7 @@ li.current-menu-item a {
     }
     
     .projects-container {
-        padding-top: 60px;
+        padding-top: 20px;
     }
     
     .modal-body img {
@@ -1253,7 +1253,7 @@ li.current-menu-item a {
 
 @media (max-width: 768px) {
     .hero-contact {
-        padding: 100px 15px 40px 15px;
+        padding: 15px 15px 20px 15px;
     }
     
     .form-container {
